@@ -116,7 +116,7 @@ session_start();
         </div>
 
         <!-- ========================= Main ==================== -->
-        <div class="main">
+        <div class="main col-10 ml-4 ">
             <div class="topbar">
                 <div class="toggle">
                     <ion-icon name="menu-outline"></ion-icon>

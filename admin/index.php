@@ -155,7 +155,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
         <table>
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer02.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer02.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>David <br> <span>Italy</span></h4>
@@ -164,7 +164,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
 
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer01.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer01.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>Amit <br> <span>India</span></h4>
@@ -173,7 +173,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
 
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer02.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer02.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>David <br> <span>Italy</span></h4>
@@ -182,7 +182,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
 
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer01.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer01.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>Amit <br> <span>India</span></h4>
@@ -191,7 +191,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
 
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer02.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer02.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>David <br> <span>Italy</span></h4>
@@ -200,7 +200,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
 
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer01.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer01.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>Amit <br> <span>India</span></h4>
@@ -209,7 +209,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
 
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer01.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer01.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>David <br> <span>Italy</span></h4>
@@ -218,7 +218,7 @@ $totalFeedback = $result['total']; // Lấy số lượng feedback
 
             <tr>
                 <td width="60px">
-                    <div class="imgBx"><img src="../assets/imgs/customer02.jpg" alt=""></div>
+                    <div class="imgBx"><img src="../assets/photos/customer02.jpg" alt=""></div>
                 </td>
                 <td>
                     <h4>Amit <br> <span>India</span></h4>
