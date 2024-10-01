@@ -13,14 +13,28 @@ if(!empty($_POST)) {
 
 	switch ($action) {
 		case 'mark':
-			deleteUser();
+			readFeedback();
 			break;
+
+			case 'delete':
+				deleteProduct(); // Xóa phản hồi
+				break;
+
 	}
+	
 }
 
-function deleteUser() {
+function readFeedback() {
 	$id = getPost('id');
 	$updated_at = date("Y-m-d H:i:s");
 	$sql = "update Feedback set status = 1, updated_at = '$updated_at' where id = $id";
+	execute($sql);
+}
+
+
+function deleteProduct() {
+	$id = getPost('id');
+	$updated_at = date("Y-m-d H:i:s");
+	$sql = "DELETE FROM Feedback WHERE id = $id";
 	execute($sql);
 }

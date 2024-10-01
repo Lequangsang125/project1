@@ -39,11 +39,15 @@
 					<td>'.$item['updated_at'].'</td>
 					<td style="width: 50px">';
 		if($item['status'] == 0) {
-			echo '<button onclick="markRead('.$item['id'].')" class="btn btn-danger">Đã Đọc</button>';
+			echo '<button onclick="markRead('.$item['id'].')" class="btn btn-success">Đã Đọc</button>';
 		}	
 		echo '</td>
+        					<td style="width: 50px">
+						<button onclick="deleteFeedback('.$item['id'].')" class="btn btn-danger">Xoá</button>
+					</td>
 				</tr>';
 	}
+    
 ?>
         </tbody>
     </table>
@@ -59,6 +63,17 @@ function markRead(id) {
         location.reload()
     })
 }
+function deleteFeedback(id) {
+		option = confirm('Bạn có chắc chắn muốn xoá phản hồi này không?')
+		if(!option) return;
+
+		$.post('form_api.php', {
+			'id': id,
+			'action': 'delete'
+		}, function(data) {
+			location.reload()
+		})
+	}
 </script>
 <?php
 	require_once('../layouts/footer.php');
